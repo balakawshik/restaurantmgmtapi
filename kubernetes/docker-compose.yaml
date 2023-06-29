@@ -261,9 +261,9 @@ spec:
   ipFamilyPolicy: SingleStack
   ports:
     - nodePort: 30183
-      port: 3000
+      port: 80
       protocol: TCP
-      targetPort: 80
+      targetPort: 3000
   selector:
     app: restaurantmgmtapi
   sessionAffinity: None
