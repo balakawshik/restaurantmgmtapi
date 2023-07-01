@@ -84,7 +84,7 @@ metadata:
   name: restaurantmgmtapi
   namespace: default
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: restaurantmgmtapi
