@@ -24,7 +24,6 @@ exports.updateRestaurant = async (req, res, next) => {
     { name: req.params.name },
     req.body
   );
-  
   res.status(200).json({
     success: true,
     message: "Restaurant Modified",
